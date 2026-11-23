@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Isha Mimani | Brand Strategy</title>
+  <meta name="description" content="Isha Mimani, Senior Brand Consultant in New Delhi. Brand strategy, campaigns and creative direction for 20+ luxury and consumer brands." />
+  <meta property="og:title" content="Isha Mimani | Brand Strategy" />
+  <meta property="og:description" content="Brand strategy for luxury and lifestyle: Forest Essentials, DLF Emporio, The Chanakya, Label Advaya and more." />
+  <meta property="og:image" content="../assets/work/forestessentials-2.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Fustat:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="header" id="header">
+    <a class="header__mark" href="#top" aria-label="Isha Mimani, back to top">Isha Mimani</a>
+    <nav class="header__nav" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+    </nav>
+    <div class="header__right">
+      <a class="pill" href="#contact">
+        <span>Get in touch</span>
+        <span class="pill__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+      <button class="round" id="themeToggle" type="button" aria-label="Toggle light or dark">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <h1 class="hero__title" data-reveal>Brand strategy<br />for luxury &amp; lifestyle,<br />built to be remembered</h1>
+      <div class="strip" id="strip" aria-label="Selected brand work">
+        <div class="strip__ring" id="ring"></div>
+      </div>
+      <ul class="labels" id="labels" aria-label="Brands"></ul>
+    </section>
+
+    <!-- PARTNER -->
+    <section class="simple" id="about">
+      <h2 class="h2" data-reveal>Brand partner</h2>
+      <p class="simple__text" id="summary"></p>
+      <a class="pill pill--soft" href="#contact"><span>Let's talk</span><span class="pill__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+    </section>
+
+    <!-- WORK -->
+    <section class="work" id="work">
+      <div class="work__head">
+        <h2 class="mega" data-reveal>Some of my<br />latest work</h2>
+        <p class="eyebrow">Brands I've shaped, one campaign at a time.</p>
+      </div>
+      <div class="work__grid" id="workGrid"></div>
+      <p class="work__note">Imagery from each brand's public Instagram. All rights belong to the brands.</p>
+    </section>
+
+    <!-- SERVICES (sticky) -->
+    <section class="sticky" id="services">
+      <div class="sticky__left">
+        <p class="eyebrow">Brand consultant in New Delhi.</p>
+        <h2 class="h3" data-reveal>I build brands people come back to.</h2>
+      </div>
+      <div class="sticky__right" id="serviceList"></div>
+    </section>
+
+    <!-- NUMBERS -->
+    <section class="simple simple--numbers">
+      <h2 class="h2" data-reveal>The results you can count</h2>
+      <dl class="stats" id="stats"></dl>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="team" id="experience">
+      <div class="team__head">
+        <p class="eyebrow">Where the work<br />happened</p>
+        <h2 class="mega" data-reveal>Experience</h2>
+      </div>
+      <div class="exp" id="exp"></div>
+      <div class="team__foot">
+        <div>
+          <h3 class="label">Education</h3>
+          <ul class="plain" id="education"></ul>
+        </div>
+        <div>
+          <h3 class="label">Also worked with</h3>
+          <ul class="chips" id="also"></ul>
+        </div>
+        <div>
+          <h3 class="label">Toolkit</h3>
+          <ul class="chips" id="skills"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / NEED -->
+    <section class="need" id="contact">
+      <h2 class="mega" data-reveal>Tell me what<br />you need.</h2>
+      <form class="need__bar" id="needForm">
+        <span class="need__label">I need</span>
+        <span class="need__picked" id="picked"><span class="need__empty">help with…</span></span>
+        <button class="need__next" type="submit">Email Isha <span aria-hidden="true">→</span></button>
+      </form>
+      <ul class="need__grid" id="needGrid"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__cols">
+      <p class="footer__about">Isha Mimani is a brand consultant based in New Delhi. She builds brand strategy, campaigns and creative direction for luxury and consumer brands.</p>
+      <div>
+        <h2 class="footer__h">Site</h2>
+        <a href="#work">Work</a><a href="#services">Services</a><a href="#about">About</a><a href="#experience">Experience</a>
+      </div>
+      <div>
+        <h2 class="footer__h">Expertise</h2>
+        <span>Brand strategy</span><span>Campaigns</span><span>Creative direction</span><span>Performance</span>
+      </div>
+      <div>
+        <h2 class="footer__h">Get in touch</h2>
+        <a href="mailto:ishamimani04@gmail.com">ishamimani04@gmail.com</a>
+        <a href="https://www.linkedin.com/in/isha-mimani-0654261b9/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <span>New Delhi, India</span>
+      </div>
+    </div>
+    <div class="footer__base">
+      <p class="footer__word" aria-hidden="true">Isha Mimani</p>
+      <span class="footer__copy">© <span id="year"></span> Isha Mimani</span>
+    </div>
+  </footer>
+
+  <dialog class="sheet" id="sheet" aria-labelledby="sheetTitle">
+    <div class="sheet__inner">
+      <button class="round sheet__close" type="button" data-close aria-label="Close">✕</button>
+      <p class="eyebrow" id="sheetMeta"></p>
+      <h2 class="h2" id="sheetTitle"></h2>
+      <p class="simple__text" id="sheetBlurb"></p>
+      <ul class="chips" id="sheetWork"></ul>
+      <div class="sheet__grid" id="sheetGrid"></div>
+      <a class="pill pill--soft" id="sheetLink" target="_blank" rel="noopener"></a>
+    </div>
+  </dialog>
+
+  <script src="../data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
